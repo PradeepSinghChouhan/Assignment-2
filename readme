@@ -1,0 +1,24 @@
+# Sum of Numbers from 1 to 50
+
+This Python program calculates the sum of all integers from 1 to 50 using a `for` loop.
+
+## 📜 Description
+
+The program performs the following steps:
+1. Initializes a variable to store the "a".
+2. Uses a `for` loop to iterate through numbers from 1 to 50.
+3. Adds each number to the total sum using the `+=` operator.
+4. Prints the final result.
+
+## 🧮 Code
+
+```python
+# Initialize sum to 0
+a = 0
+
+# Iterate from 1 to 50 using a for loop
+for i in range(1, 51):
+    a += i  # Add each number to the sum
+
+# Display the final sum
+print("The sum of numbers from 1 to 50 is:", a)
