@@ -1,0 +1,21 @@
+# 🧮 Even or Odd Number Checker
+
+This is a simple Python program that takes an integer input from the user and checks whether the number is **even** or **odd**.
+
+## 📜 Description
+
+The program does the following:
+1. Accepts a number from the user using `input()`.
+2. Converts the input string to an integer using `int()`.
+3. Checks if the number is divisible by 2 using the modulo operator `%`.
+4. Displays whether the number is even or odd.
+
+## 💻 Code
+
+```python
+a = int(input('Enter the value: '))
+
+if a % 2 == 0:
+    print("no. is even")
+else:
+    print("no. is odd")
